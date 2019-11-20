@@ -1,0 +1,40 @@
+.startBtn{
+    position: absolute;
+    top:125px;
+    left: 100px;
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    z-index: 1;
+    background-color: brown;
+    color: white;
+    line-height: 50px;
+    font-size: 2em;
+}
+.dashboard{
+    font-family: sans-serif;
+    font-size: 2em;
+    background-color: black;
+    width: 390px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+
+}
+.box{
+    width: 21%;
+    margin: 1%;
+    display: inline-block;
+    line-height: 80px;
+    text-align: center;
+    cursor: pointer;
+    padding: 1%;
+    box-shadow: 5px 5px #888;
+    /* height: 80px; */
+}
+.back{
+    display: block;
+}
+.front{
+    display: none;
+}
